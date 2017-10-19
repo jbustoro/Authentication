@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('nif') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">CIF/NIF</label>
+                            <label for="nif" class="col-md-4 control-label">CIF/NIF</label>
 
                             <div class="col-md-6">
                                 <input id="nif" type="text" class="form-control" name="nif" value="{{ old('nif') }}" required autofocus>
@@ -40,7 +40,7 @@
                         </div>
 
                         <div class="form-group{{ $errors->has('telephone') ? ' has-error' : '' }}">
-                            <label for="name" class="col-md-4 control-label">Teléfono de contacto</label>
+                            <label for="telephone" class="col-md-4 control-label">Teléfono de contacto</label>
 
                             <div class="col-md-6">
                                 <input id="telephone" type="text" class="form-control" name="telephone" value="{{ old('telephone') }}" required autofocus>
